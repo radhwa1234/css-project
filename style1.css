@@ -1,0 +1,222 @@
+element.style{
+}
+html {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.partie1 {
+    display: flex;
+}
+.partie2 {
+    display: flex;
+}
+.projects {
+    background-color: rgb(68, 121, 170);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+#nav-projects {
+    background-color: #607993;
+}
+#projects h1 {
+    font-family: Arial, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+    padding-top: 10px;
+    font-size: 35px;
+    color: black;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: bolder;
+}
+#projects h1:hover {
+    color: rgb(219, 219, 78);
+}
+.port {
+    display: block;
+    color: white;
+    text-align: left;
+    display: flex;
+    margin-left: 5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    font-size: 1.5em;
+
+}
+.liste a{
+    color:white;
+   margin: 10px;
+   align-items: center;
+   font-size: 20px;
+  } 
+div ul li {
+    display: inline;
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+} 
+li a:hover {
+    color: rgb(212, 196, 103);
+}
+.listes {
+    display: flex;
+    justify-content: flex-end;
+}
+.projet {
+    width: 300px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: #2F375B;
+    border-radius: 15px;
+    box-shadow: black 3px 6px 10px;
+}
+* {
+    padding: 0;
+}
+div {
+    display: block;
+}
+ p {
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin: 0;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+ h3 {
+    text-align: center;
+    color: goldenrod;
+    font-weight: bolder;
+    font-size: 26px;
+    font-family: cursive;
+    padding: 10px;
+    margin: 0;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.content {
+    display: flex;
+    justify-content: space-around;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+ .projet a {
+    text-decoration: none;
+    color: white;
+    border: solid white 0.5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    border-radius: 6px;
+    padding: 10px;
+    margin: 0;
+}
+a:-webkit-any-link {
+    cursor: pointer;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.links a:hover {
+    color: orange;
+}
+div {
+    display: block;
+}
+.technologies h6 {
+    color: grey;
+    margin: 0;
+    display: block;
+    font-size: 0.67em;
+    margin-block-start: 2.33em;
+    margin-block-end: 2.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+footer {
+    background-color: rgb(61, 60, 60);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+footer h1 {
+    color: white;
+    margin-left: 5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Prompt', sans-serif;
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+footer h3 {
+    color: #B29D00;
+    margin-left: 5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Prompt';
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+footer .link {
+    margin-top: 70px; 
+    text-align: center; 
+}
+a .test {
+    text-decoration: none;
+}
+.info h3 {
+        margin-right: 15px;
+        margin-top: 70px;
+        font-family: 'prompt';
+}
+footer h3 {
+    color: #B29D00;
+    margin-left: 30px;
+    padding-top: 10px;
+}
